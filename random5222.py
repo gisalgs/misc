@@ -1,4 +1,20 @@
+'''
+A simple random number generator and some derived functions.
+
+Change history
+  Spetember 8, 2024
+    First version and release
+
+Contact:
+Ningchuan Xiao
+The Ohio State University
+Columbus, OH
+'''
+
 import time
+
+# Quick and dirty random number generator
+# Numerical Recipes in C++, p. 289, eq. 7.1.6
 
 _m = 2**32
 _a = 1664525
